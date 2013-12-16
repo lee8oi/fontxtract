@@ -1,18 +1,17 @@
 /* fontxtract project main.go
 
-This Source Code Form is subject to the terms of the Mozilla Public
-License, v. 2.0. If a copy of the MPL was not distributed with this
-file, You can obtain one at http://mozilla.org/MPL/2.0/.
-
-fontxtract parses a directory of zip archives and extracts TTF & OTF font files to a specified directory.
+fontxtract is a simple commandline utility which parses a directory of zip
+archives and extracts TTF & OTF font files to a specified directory.
 
 USAGE
 
 Linux:
-	$ fontxtract path-to-zips/ path-to-fonts/
+
+	fontxtract path-to-zips/ path-to-fonts/
 
 Windows:
-	> fontxtract.exe path-to-zips\ path-to-fonts\
+
+	fontxtract.exe path-to-zips\ path-to-fonts\
 
 */
 
