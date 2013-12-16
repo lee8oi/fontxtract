@@ -1,4 +1,13 @@
 fontxtract
 ==========
 
-fontextract parses a directory of zip archives and extracts TTF &amp; OTF font files to a specified directory.
+fontxtract parses a directory of zip archives and extracts TTF & OTF font files to a specified directory.
+
+USAGE
+
+Linux:
+	$ fontxtract path-to-zips/ path-to-fonts/
+
+Windows:
+	> fontxtract.exe path-to-zips\ path-to-fonts\
+	
