@@ -47,7 +47,7 @@ func extract(file, dest string) {
 				return
 			}
 			defer src.Close()
-			dst, err := os.Create(dest + name)
+			dst, err := os.Create(dest + "/" + name)
 			if err != nil {
 				fmt.Println(err)
 				return
