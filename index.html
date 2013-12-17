@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Fontxtract : fontextract parses a directory of zip archives and extracts TTF &amp; OTF font files to a specified directory." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Fontxtract</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/lee8oi/fontxtract">View on GitHub</a>
+
+          <h1 id="project_title">Fontxtract</h1>
+          <h2 id="project_tagline">fontextract parses a directory of zip archives and extracts TTF &amp; OTF font files to a specified directory.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/lee8oi/fontxtract/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/lee8oi/fontxtract/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="fontxtract" class="anchor" href="#fontxtract"><span class="octicon octicon-link"></span></a>fontxtract</h1>
+
+<p>fontxtract is a simple commandline utility which parses a directory of zip archives and extracts TTF &amp; OTF font files to a specified directory.</p>
+
+<p>USAGE</p>
+
+<p>Linux:</p>
+
+<pre><code>fontxtract path-to-zips/ path-to-fonts/
+</code></pre>
+
+<p>Windows:</p>
+
+<pre><code>fontxtract.exe path-to-zips\ path-to-fonts\
+</code></pre>
+
+<p>BUILDING</p>
+
+<p>Building &amp; running fontxtract from source is easy. It requires Go (<a href="http://golang.org">http://golang.org</a>) &amp; Git (<a href="http://git-scm.com">http://git-scm.com</a>). Simply clone the source repository, run ‘go build’ in the source directory to build the executable, then extract the fonts!</p>
+
+<p>Linux bash shell example:</p>
+
+<pre><code>$ git clone https://github.com/lee8oi/fontxtract.git
+$ cd fontxtract
+$ go build
+$ ./fontxtract zippath/ fontpath/
+</code></pre>
+
+<p>Windows command prompt example:</p>
+
+<pre><code>&gt; git clone https://github.com/lee8oi/fontxtract.git
+&gt; cd fontxtract
+&gt; go build
+&gt; fontxtract zippath\ fontpath\
+</code></pre>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Fontxtract maintained by <a href="https://github.com/lee8oi">lee8oi</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
